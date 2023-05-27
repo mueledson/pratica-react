@@ -10,7 +10,7 @@ function App() {
           <img src={logoImg} className="menu"/>
         </Logo>
       
-        <Tittle>Hello World! <MdMenu  className="menu"/> </Tittle>
+        <Tittle>Hello World!</Tittle><Logo><MdMenu className="menu2"/></Logo> 
     </Container>
   )
 }

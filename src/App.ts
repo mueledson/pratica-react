@@ -2,18 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     display: flex;
-    border: 3px solid red;
-    box-sizing: border-box;
+    align-content: center;
+    justify-content: center;
 `;
 
 export const Logo = styled.div`
-    border: 3px solid red;
-    margin-left: 250px;
+    margin-right: 2px;
     .menu {
-        border: 3px solid red;
         background-color: #1c1c1c;
         padding: 10px;
         transition: 0.5s;
+        margin-top: 23px;
             
         &:hover{
             border-radius: 45%;
@@ -24,28 +23,21 @@ export const Logo = styled.div`
             animation: entrada 5s;
         }
     }
-`;
 
-export const Tittle = styled.h1`
-    border: 3px solid red;
-    color: blue;
-    width: 30%;
-
-    .menu {
-        border: 3px solid red;
-        color: #1c1c1c;
-        background-color: aquamarine;
+    .menu2{
+        background-color: #1c1c1c;
+        color: #4bb4ca;
         padding: 10px;
-        margin-bottom: -10px;
         transition: 0.5s;
-
+        font-size: 32px;
+        margin-top: 23px;
+        margin-left: -320px;
+            
         &:hover{
             border-radius: 45%;
-            background-color: red;
-            color: #fff;
-
+            color: #4bb4ca;
+            background-color: #666;
             cursor: pointer;
-
             animation: entrada 5s;
         }
 
@@ -61,4 +53,11 @@ export const Tittle = styled.h1`
         }
         
     }
+`;
+
+export const Tittle = styled.h1`
+    color: blue;
+    width: 26%;
+    padding: 10px;
+    margin-top: 23px;
 `;
